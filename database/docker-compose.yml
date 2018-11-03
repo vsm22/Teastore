@@ -1,0 +1,6 @@
+mysql:
+  build: '.'
+  environment:
+    MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
+  ports:
+    - 3306:3306
